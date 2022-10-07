@@ -10,3 +10,5 @@
   stats.replace("pilots").withVaStat(stats => `${stats.pilots.total} Pilots`);
   stats.replace("routes").withVaStat(stats => `${stats.general.routes} Routes`);
   stats.replace("aircrafts").withVaStat(stats => `${stats.general.aircraft} Aircrafts`);
+
+
