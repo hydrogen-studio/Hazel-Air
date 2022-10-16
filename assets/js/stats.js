@@ -8,7 +8,7 @@
 
   stats.replace("pireps").withVaStat(stats => `${stats.pireps.total} Pireps`);
   stats.replace("pilots").withVaStat(stats => `${stats.pilots.total} Pilots`);
-  stats.replace("routes").withVaStat(stats => `${stats.general.routes} Routes`);
+  stats.replace("pairs").withVaStat(stats => `${stats.general.pairs} Pairs`);
   stats.replace("aircrafts").withVaStat(stats => `${stats.general.aircraft} Aircrafts`);
 
 
